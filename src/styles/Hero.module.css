@@ -1,0 +1,21 @@
+.heroSection {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.heroImg {
+    width: 80%;
+}
+ 
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .heroSection {
+    height: auto;
+    padding-top: 7rem;
+    margin-bottom: 5rem;
+  }
+}

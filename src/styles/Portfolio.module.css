@@ -1,0 +1,80 @@
+.sectionH5 {
+    text-align: center;
+    color: #A3A5A5;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.sectionH2 {
+    text-align: center;
+    color: #515857;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.portfolioContainer {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.portfolioItem {
+    padding: 5rem;
+    border-radius: 2rem;
+    border: 1px solid #A3A5A5;
+    transition: all 400ms ease;
+}
+
+.portfolioItemH1 {
+    display: flex;
+    justify-content: center;
+    color: #A3A5A5;
+    margin-bottom: 0.5rem;
+}
+
+.portfolioItemParagraph {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #D8E2E1;
+}
+
+.portfolioItemCta {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.btnPrimary {
+    color: #A3A5A5;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #A3A5A5;
+    transition: all 400ms ease;
+  }
+  
+  .btnPrimary:hover {
+    background: #A3A5A5;
+    color: #515857;
+    border-color: transparent;
+  }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .portfolioContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    .portfolioContainer {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

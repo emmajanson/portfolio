@@ -1,0 +1,147 @@
+.sectionH5 {
+    text-align: center;
+    color: #A3A5A5;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.sectionH2 {
+    text-align: center;
+    color: #515857;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.aboutContainer {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 5%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.aboutMe {
+    width: 85%;
+    height: 85%;
+    border-radius: 2rem;
+    display: grid;
+}
+
+.aboutMeImg {
+    width: 80%;
+    transform: rotate(0);
+    transition: all 400ms ease;
+}
+
+.aboutMeImg:hover {
+    transform: rotate(10deg);
+}
+
+.aboutCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.aboutCard {
+    background: #515857;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 400ms ease; 
+}
+
+.aboutCard:hover {
+    background: transparent;
+    border-color: #515857;
+    cursor: default;
+}
+
+.aboutIcon {
+    color: #A3A5A5;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.aboutCardH4 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    color: #D8E2E1;
+}
+
+.aboutCardH5 {
+    font-size: 0.75rem;
+    color: #D8E2E1;
+}
+
+.aboutContentParagraph {
+    margin: 2rem 0 5rem;
+    color: #D8E2E1;
+}
+
+.aboutBtns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btnPrimary {
+    color: #A3A5A5;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #A3A5A5;
+    transition: all 400ms ease;
+  }
+  
+  .btnPrimary:hover {
+    background: #A3A5A5;
+    color: #515857;
+    border-color: transparent;
+  }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .aboutContainer {
+        width: 86%;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .aboutMe {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .aboutContentParagraph {
+        margin: 2rem 0 2rem;
+    }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    .aboutContainer {
+        width: 90%;
+    }
+
+    .aboutMe {
+        width: 75%;
+        margin: 0 auto 1.5rem;
+    }
+
+    .aboutCards {
+        gap: 0.5rem;
+    }
+
+    .aboutContent {
+        text-align: center;
+    }
+
+    .aboutContentParagraph {
+        margin: 1.5rem 0;
+    }
+}

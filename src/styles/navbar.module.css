@@ -1,0 +1,133 @@
+.navbarContainer {
+  background-color: transparent;
+  position: fixed;
+  height: 13vh;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbarContainerBg {
+  background-color: #515857;
+  opacity: 0.7;
+  position: fixed;
+  height: 13vh;
+  width: 100%;
+  z-index: 2;
+  transition: 0.8s ease-in-out;
+}
+
+.navContentWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.navbarLogoImg {
+  width: 4rem;
+} 
+
+.navLinkWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.navLink {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.navLink:before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 0%;
+  bottom: 6px;
+}
+
+.navLink:hover:before {
+  width: 100%;
+}
+
+.menuIcons,
+.mobileNavLinkWrapper {
+  display: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .navbarContainer {
+    position: fixed;
+  }
+
+  .navContentWrapper {
+    padding: 0;
+  }
+
+  .navLinkWrapper {
+    display: none;
+
+  }
+
+  .navbarLogoImg {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    top: 25px;
+    width: 20%;
+  }
+
+  .menuIcons {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    z-index: 4;
+    position: fixed;
+  }
+
+  .mobileNavLinkWrapper {
+    display: flex;
+    position: fixed;
+  }
+
+  .mobileLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    gap: 25px;
+    background: rgb(200, 213, 210);
+    background: linear-gradient(
+      0deg,
+      rgba(200, 213, 210, 1) 30%,
+      rgba(176, 189, 186, 1) 100%
+    );
+
+  }
+
+  .navLink {
+    font-size: 24px;
+  }
+}
