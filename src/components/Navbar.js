@@ -45,7 +45,7 @@ function Navbar() {
         <Link className={styles.navLogoLink} href="/">
           <img
             className={styles.navbarLogoImg}
-            src="portfolioLogoCropped.png"
+            src="portfolioLogo.svg"
             alt="Portfolio Logo"
           />
         </Link>
