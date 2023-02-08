@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import styles from '../styles/navbar.module.css';
 import Image from 'next/image';
-import '../../public/portfolioLogoCropped.png';
+import '../../public/portfolioLogo.svg';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { useState, useEffect } from 'react';
 

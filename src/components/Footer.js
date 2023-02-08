@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import '../../public/portfolioLogo.svg'
 import styles from '../styles/Footer.module.css'
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
@@ -8,7 +9,7 @@ import {FaEnvelope} from "react-icons/fa";
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <Link href="#" className={styles.footerLogo}>EMMA JANSON</Link>
+      <img src='portfolioLogo.svg' href="#" className={styles.footerLogo} />
 
       <ul className={styles.permalinks}>
         <Link className={styles.footerLink} href="#">Home</Link>
