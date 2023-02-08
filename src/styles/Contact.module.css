@@ -66,6 +66,10 @@
     border-color: transparent;
   }
 
+  .btnPrimary:focus {
+    outline: none !important;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .form {
