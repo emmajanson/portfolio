@@ -16,7 +16,7 @@ function Footer() {
         <Link className={styles.footerLink} href="#about">About</Link>
         <Link className={styles.footerLink} href="#experience">Experience</Link>
         <Link className={styles.footerLink} href="#portfolio">Portfolio</Link>
-        <Link className={styles.footerLink} href="#testimonials">Testimonials</Link>
+{/*         <Link className={styles.footerLink} href="#testimonials">Testimonials</Link> */}
         <Link className={styles.footerLink} href="#contact">Contact</Link>
       </ul>
 

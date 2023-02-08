@@ -63,9 +63,9 @@ function Navbar() {
           <Link className={styles.navLink} href="#Portfolio">
             Portfolio
           </Link>
-          <Link className={styles.navLink} href="#Testimonials">
+{/*           <Link className={styles.navLink} href="#Testimonials">
             Testimonials
-          </Link>
+          </Link> */}
           <Link className={styles.navLink} href="#Contact">
             Contact
           </Link>
