@@ -74,6 +74,12 @@
 
     .btnPrimary {
         cursor: default;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .btnPrimary:focus {
+        outline: none;
+        box-shadow: none;
     }
 }
 
@@ -85,5 +91,15 @@
 
     .btnPrimary {
         width: 50%; 
+    }
+
+    .btnPrimary {
+        cursor: default;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .btnPrimary:focus {
+        outline: none;
+        box-shadow: none;
     }
 }
