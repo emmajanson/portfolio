@@ -76,6 +76,10 @@
     position: fixed;
   }
 
+  .navbarContainerBg {
+  opacity: 10;
+}
+
   .navContentWrapper {
     padding: 0;
   }

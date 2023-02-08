@@ -107,18 +107,32 @@
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .aboutContainer {
-        width: 86%;
+        width: 100%;
         grid-template-columns: 1fr;
         gap: 0;
+        text-align: center;
     }
 
     .aboutMe {
-        width: 50%;
+        width: 75%;
         margin: 2rem auto 4rem;
+    }
+
+    .aboutCards {
+        gap: 1.5rem;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: center;
+    }
+
+    .aboutContentParagraphWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .aboutContentParagraph {
         margin: 2rem 0 2rem;
+        width: 75%;
     }
 }
 
@@ -129,8 +143,8 @@
     }
 
     .aboutMe {
-        width: 75%;
-        margin: 0 5rem 1.5rem;
+        width: 80%;
+        margin: 0 2rem 1.5rem;
     }
 
     .aboutCards {
@@ -143,7 +157,14 @@
         text-align: center;
     }
 
+    .aboutContentParagraphWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
     .aboutContentParagraph {
-        margin: 1.5rem 1.5rem;
+        width: 90%;
     }
 }

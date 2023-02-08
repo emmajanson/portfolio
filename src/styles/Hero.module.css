@@ -1,6 +1,7 @@
 .heroSection {
   background-color: black;
-  height: 100vh;
+  height: 105vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +9,7 @@
 }
 
 .heroImg {
-    width: 80%;
+    width: 85%;
 }
  
 /* MOBILE */

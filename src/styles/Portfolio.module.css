@@ -68,6 +68,11 @@
     .portfolioContainer {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+        display: flex;
+        width: 100%;
+    }
+    .portfolioItem {
+        width: 75%;
     }
 }
 
@@ -76,5 +81,11 @@
     .portfolioContainer {
         grid-template-columns: 1fr;
         gap: 1rem;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .portfolioItem {
+        width: 90%;
     }
 }
