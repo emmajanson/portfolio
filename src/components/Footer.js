@@ -13,11 +13,11 @@ function Footer() {
 
       <ul className={styles.permalinks}>
         <Link className={styles.footerLink} href="#">Home</Link>
-        <Link className={styles.footerLink} href="#about">About</Link>
-        <Link className={styles.footerLink} href="#experience">Experience</Link>
-        <Link className={styles.footerLink} href="#portfolio">Portfolio</Link>
-{/*         <Link className={styles.footerLink} href="#testimonials">Testimonials</Link> */}
-        <Link className={styles.footerLink} href="#contact">Contact</Link>
+        <Link className={styles.footerLink} href="#About">About</Link>
+        <Link className={styles.footerLink} href="#Experience">Experience</Link>
+        <Link className={styles.footerLink} href="#Portfolio">Portfolio</Link>
+{/*         <Link className={styles.footerLink} href="#Testimonials">Testimonials</Link> */}
+        <Link className={styles.footerLink} href="#Contact">Contact</Link>
       </ul>
 
       <div className={styles.footerSocials}>

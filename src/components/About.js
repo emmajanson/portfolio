@@ -53,7 +53,7 @@ function About() {
           </div>
 
           <div className={styles.aboutBtns}>
-          <Link href='#contact' className={styles.btnPrimary}>Let's Talk!</Link>
+          <Link href='#Contact' className={styles.btnPrimary}>Let's Talk!</Link>
           <a href='cv.pdf' download className={styles.btnPrimary}>Download CV</a>
           </div>
         </div>
