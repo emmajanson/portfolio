@@ -45,7 +45,7 @@ function About() {
 
           <div className={styles.aboutContentParagraphWrapper}>
           <p className={styles.aboutContentParagraph}>
-          Driven, structured and always open to new development challenges - 3 phrases that describe me very 
+          Driven, structured and always open to new developing challenges - 3 phrases that describe me very 
           well as a person, both according to myself and my close ones. I came in contact with HTML and CSS 
           for the first time in 2010, when I was only 12 years old. Today, I am further educating myself as a 
           front-end developer to fulfill a bit of a childhood dream - and to work with something I really love!

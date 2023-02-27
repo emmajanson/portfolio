@@ -1,30 +1,45 @@
-import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 import styles from '../styles/Portfolio.module.css';
-/* import IMG1 from '../../Media/mockup1.jpg';
-import IMG2 from '../../Media/mockup2.jpg';
-import IMG3 from '../../Media/mockup3.jpg'; */
+import starwarsMockup from '../../public/starwarsMockup.svg';
+import recipeAppMockup from '../../public/recipeAppMockup.svg';
+import krukmakerietMockup from '../../public/krukmakerietMockup.svg';
+import tennisScoreboardMockup from '../../public/tennisScoreboardMockup.svg';
 
-/* const data = [
+const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Recipe App',
-    github: 'https://github.com/emmajanson/recipeapp'
+    image: starwarsMockup,
+    title: 'Star Wars App',
+    description:
+      'Description is coming. Unfortunately there is no Live Demo on this one.',
+    github: 'https://github.com/emmajanson/startwarsassignment',
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Wedding Photo App',
-    github: 'https://github.com/emmajanson/weddingphotoapp'
+    image: recipeAppMockup,
+    title: 'Recipe App',
+    description: 'Description is coming',
+    github: 'https://github.com/emmajanson/recipeapp',
+    demo: 'https://emmajanson_recipeapp.surge.sh/',
   },
   {
     id: 3,
-    image: IMG3,
+    image: krukmakerietMockup,
     title: 'Krukmakeriet',
-    github: 'https://github.com/emmajanson/krukmakeriet'
+    description: 'Description is coming',
+    github: 'https://github.com/emmajanson/krukmakeriet',
+    demo: 'https://emmajanson_krukmakeriet.surge.sh/',
   },
-] */
+  {
+    id: 4,
+    image: tennisScoreboardMockup,
+    title: 'Tennis Scoreboard',
+    description: 'Description is coming',
+    github: 'https://github.com/emmajanson/TennisScoreboard',
+    demo: 'https://emmajanson_tennisscoreboard.surge.sh/',
+  },
+];
 
 function Portfolio() {
   return (
@@ -33,21 +48,33 @@ function Portfolio() {
       <h2 className={styles.sectionH2}>Portfolio</h2>
 
       <div className={styles.portfolioContainer}>
-        <article className={styles.portfolioItem}>
-          <h1 className={styles.portfolioItemH1}>COMING SOON!</h1>
-          <p className={styles.portfolioItemParagraph}>
-            Please check out my Github in the meantime
-          </p>
-          <div className={styles.portfolioItemCta}>
-            <Link
-              href="https://github.com/emmajanson"
-              className={styles.btnPrimary}
-              target="_blank"
-            >
-              Github
-            </Link>
-          </div>
-        </article>
+        {data.map(({ id, image, title, description, github, demo }) => {
+          return (
+            <article key={id} className={styles.portfolioItem}>
+              <Image
+                className={styles.portfolioItemImage}
+                src={image}
+                alt={title}
+              />
+              <div className={styles.portfolioOverlay}>
+                <h3 className={styles.portfolioH3}>{title}</h3>
+                <p className={styles.portfolioParagraph}>{description}</p>
+                <div className={styles.btnWrapper}>
+                  <a href={demo} className={styles.btnPrimary} target="_blank">
+                    Live demo
+                  </a>
+                  <a
+                    href={github}
+                    className={styles.btnPrimary}
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
