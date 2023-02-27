@@ -19,7 +19,7 @@ function Experience() {
               <BsPatchCheck className={styles.experienceDetailsIcon}/>
               <div>
                 <h4 className={styles.experienceDetailsH4}>HTML</h4>
-                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleFill/> <BsCircleHalf/> <BsCircle/></div>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/></div>
               </div>
             </article>
 
@@ -27,7 +27,7 @@ function Experience() {
               <BsPatchCheck className={styles.experienceDetailsIcon}/>
               <div>
                 <h4 className={styles.experienceDetailsH4}>CSS</h4>
-                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleFill/> <BsCircleHalf/> <BsCircle/></div>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/></div>
               </div>
             </article>
 
