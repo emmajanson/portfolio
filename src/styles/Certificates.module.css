@@ -1,0 +1,44 @@
+.sectionH5 {
+    text-align: center;
+    color: #a3a5a5;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  .sectionH2 {
+    text-align: center;
+    color: #515857;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+.certContainer {
+    width: 100%;
+    margin-bottom: 5rem;
+    padding: 0rem 5rem 0rem 5rem;
+    justify-items: center;
+    color: white;
+}
+
+.carousel {
+    /* cursor: grab; */
+    overflow: hidden;
+}
+
+.innerCarousel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.carouselItem {
+    width: 100%;
+}
+
+.carouselItemImg {
+    width: 100%;
+    height: 100%;
+}
+  

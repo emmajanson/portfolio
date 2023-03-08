@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import styles from '../styles/navbar.module.css';
-import Image from 'next/image';
 import '../../public/portfolioLogo.svg';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { useState, useEffect } from 'react';
@@ -51,7 +50,7 @@ function Navbar() {
         </Link>
 
         <ul className={styles.navLinkWrapper}>
-          <Link className={styles.navLink} href="/" >
+          <Link className={styles.navLink} href="/">
             Home
           </Link>
           <Link className={styles.navLink} href="#About">
@@ -60,10 +59,13 @@ function Navbar() {
           <Link className={styles.navLink} href="#Experience">
             Experience
           </Link>
+          <Link className={styles.navLink} href="#Certificates">
+            Certificates
+          </Link>
           <Link className={styles.navLink} href="#Portfolio">
             Portfolio
           </Link>
-{/*           <Link className={styles.navLink} href="#Testimonials">
+          {/*           <Link className={styles.navLink} href="#Testimonials">
             Testimonials
           </Link> */}
           <Link className={styles.navLink} href="#Contact">
