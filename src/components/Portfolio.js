@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/Portfolio.module.css';
-import starwarsMockup from '../../public/starwarsMockup.svg';
-import recipeAppMockup from '../../public/recipeAppMockup.svg';
-import krukmakerietMockup from '../../public/krukmakerietMockup.svg';
-import tennisScoreboardMockup from '../../public/tennisScoreboardMockup.svg';
+import starwarsMockup from '../../public/portfolioMockups/starwarsMockup.svg';
+import recipeAppMockup from '../../public/portfolioMockups/recipeAppMockup.svg';
+import krukmakerietMockup from '../../public/portfolioMockups/krukmakerietMockup.svg';
+import tennisScoreboardMockup from '../../public/portfolioMockups/tennisScoreboardMockup.svg';
+import esmeraldaTalloMockup from '../../public/portfolioMockups/esmeraldaTalloMockup.svg'
 
 const data = [
   {
@@ -37,6 +38,14 @@ const data = [
     description: "A small project in React which I did as a test for an internship. I might not get the tennis score system right though. But hey - it was the code that mattered here.",
     github: "https://github.com/emmajanson/TennisScoreboard",
     demo: "https://emmajanson_tennisscoreboard.surge.sh/",
+  },
+  {
+    id: 4,
+    image: esmeraldaTalloMockup,
+    title: "Esmeralda Tällö",
+    description: "My very first project as a freelancer. One of the participants of the swedish TV show 'Elitstyrkans hemligheter' in 2023 wanted a website where schools and companies can book her as an inspirational speaker. I also made the logo for her and her new brand.",
+    github: "https://github.com/emmajanson/esmeraldatallo",
+    demo: "https://esmeraldatallo.se",
   },
 ];
 
