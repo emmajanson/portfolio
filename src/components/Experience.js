@@ -51,7 +51,7 @@ function Experience() {
               <BsPatchCheck className={styles.experienceDetailsIcon}/>
               <div>
                 <h4 className={styles.experienceDetailsH4}>Next.js</h4>
-                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleHalf/> <BsCircle/> <BsCircle/></div>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/></div>
               </div>
             </article>
 
@@ -74,7 +74,7 @@ function Experience() {
               <BsPatchCheck className={styles.experienceDetailsIcon}/>
               <div>
                 <h4 className={styles.experienceDetailsH4}>Scrum</h4>
-                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleHalf/> <BsCircle/> <BsCircle/></div>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/></div>
               </div>
             </article>
 
@@ -98,7 +98,7 @@ function Experience() {
               <BsPatchCheck className={styles.experienceDetailsIcon}/>
               <div>
                 <h4 className={styles.experienceDetailsH4}>Surge</h4>
-                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/> <BsCircle/></div>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/></div>
               </div>
             </article>
 
@@ -118,6 +118,47 @@ function Experience() {
               </div>
             </article>
 
+            <article className={styles.experienceDetails}>
+              <BsPatchCheck className={styles.experienceDetailsIcon}/>
+              <div>
+                <h4 className={styles.experienceDetailsH4}>Azure DevOps</h4>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircleHalf/> <BsCircle/> <BsCircle/></div>
+              </div>
+            </article>
+
+            <article className={styles.experienceDetails}>
+              <BsPatchCheck className={styles.experienceDetailsIcon}/>
+              <div>
+                <h4 className={styles.experienceDetailsH4}>Rust</h4>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/> <BsCircle/></div>
+              </div>
+            </article>
+
+
+            <article className={styles.experienceDetails}>
+              <BsPatchCheck className={styles.experienceDetailsIcon}/>
+              <div>
+                <h4 className={styles.experienceDetailsH4}>Xamarin</h4>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/> <BsCircle/></div>
+              </div>
+            </article>
+
+            <article className={styles.experienceDetails}>
+              <BsPatchCheck className={styles.experienceDetailsIcon}/>
+              <div>
+                <h4 className={styles.experienceDetailsH4}>OpenSLL</h4>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/> <BsCircle/></div>
+              </div>
+            </article>
+
+            <article className={styles.experienceDetails}>
+              <BsPatchCheck className={styles.experienceDetailsIcon}/>
+              <div>
+                <h4 className={styles.experienceDetailsH4}>Docker</h4>
+                <div className={styles.experienceDetailsCircles}><BsCircleFill/> <BsCircleFill/> <BsCircle/> <BsCircle/> <BsCircle/></div>
+              </div>
+            </article>
+            
           </div>
         </div>
       </div>
